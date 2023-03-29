@@ -25,7 +25,7 @@ button {
     width: 80px;
 }
 
-#btn0 {
+#buttonZero {
     height: 80px;
     width: 100%;
     display: flex;
@@ -36,5 +36,14 @@ button {
 #clearButton {
     color: red;
     font-weight: bold;
+}
+
+p {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    
+    
 }
 
