@@ -1,0 +1,40 @@
+html, body {
+    background-color: darkgray;
+    height: 100%;
+    margin: 0;
+}
+
+
+table {
+    border: 1px solid black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+td {
+    padding: 0;
+}
+
+button {
+    height: 80px;
+    width: 80px;
+}
+
+#btn0 {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clearButton {
+    color: red;
+    font-weight: bold;
+}
+
