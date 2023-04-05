@@ -1,5 +1,5 @@
 var resultOfTheCalculation = document.getElementById("resultOfTheCalculation");
-resultOfTheCalculation.innerHTML = "teste"; //Change after the code is complete;
+resultOfTheCalculation.innerHTML = "";
 
 var number = "";
 var resultOfTheOperation;
@@ -14,10 +14,11 @@ function addDigitToTheNumber(digit) {
 }
 
 function getMathOperator(op) {
-    operator = op;
-    valueOne = parseFloat(number);
-    number = "";
-    resultOfTheCalculation.innerHTML = valueOne + " " + a;
+    if (number != "") {
+        operator = op;
+        valueOne = parseFloat(number);
+        number = "";
+    }
 }
 
 function sum() {
@@ -83,3 +84,4 @@ function clearResult() {
     resultOfTheCalculation.innerHTML = number;
 
 }
+

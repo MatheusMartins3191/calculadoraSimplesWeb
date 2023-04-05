@@ -1,12 +1,11 @@
 html, body {
-    background-color: #797979;
+    background-color: #6ab2c4;
     height: 100%;
     margin: 0;
 }
 
-
 table {
-    border: 0.1px solid #c0c0c0;
+    background-color: rgb(77, 135, 211);
 }
 
 div {
@@ -16,22 +15,24 @@ div {
     height: 100%;
 }
 
-td {
-    padding: 0;
-}
-
 button {
     height: 80px;
     width: 80px;
-    background-color: #c0c0c0;
-    border: 1px #c0c0c0;
+    background-color: #506585;
+    opacity: 0.9;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    border: 0.8px rgb(55, 81, 116) solid;
+
 }    
 
-.numberButton {
+numberButton {
     height: 80px;
     width: 80px;
     background-color: #c0c0c0;
-    border: 1px #c0c0c0;
+    border: 0px #c0c0c0;
 
 }
 
@@ -41,6 +42,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: -1px;
 }
 
 #buttonClear {
@@ -51,12 +56,10 @@ button {
 p {
     background-color: white;
     height: 80px;
-    width: 100%;
-    margin: 0;
+    margin: 0px;
     font-size: 30px;
     display: flex;
+    padding-top: 10px;
     padding-left: 20px;
-    
-    
-}
 
+}
