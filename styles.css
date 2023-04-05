@@ -1,12 +1,12 @@
 html, body {
-    background-color: darkgray;
+    background-color: #797979;
     height: 100%;
     margin: 0;
 }
 
 
 table {
-    border: 1px solid black;
+    border: 0.1px solid #c0c0c0;
 }
 
 div {
@@ -23,6 +23,16 @@ td {
 button {
     height: 80px;
     width: 80px;
+    background-color: #c0c0c0;
+    border: 1px #c0c0c0;
+}    
+
+.numberButton {
+    height: 80px;
+    width: 80px;
+    background-color: #c0c0c0;
+    border: 1px #c0c0c0;
+
 }
 
 #buttonZero {
@@ -33,7 +43,7 @@ button {
     align-items: center;
 }
 
-#clearButton {
+#buttonClear {
     color: red;
     font-weight: bold;
 }
